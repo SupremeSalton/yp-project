@@ -17,8 +17,6 @@ export const template = `
             {{{lastname}}}
             {{{phone}}}
             {{{displayname}}}
-            {{{password1}}}
-            {{{password2}}}
             {{{singup}}}
             {{{cancel}}}
         </form>
