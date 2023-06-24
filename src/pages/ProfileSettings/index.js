@@ -17,13 +17,3 @@ export const ProfileSettings = () => Handlebars.compile(template)({
     change_pass: ButtonLogin(undefined, 'Change Password', 'form__button-singup', 'change_password')
 })
 
-
-
-{/* <div class="profile__settings-pic">
-            <label class="-label" for="file">
-                <span class="glyphicon glyphicon-camera"></span>
-                <span>Change Image</span>
-            </label>
-            <input id="file" type="file" name=""/>
-            <img src="../../images/image.png" id="output" width="200" />
-        </div>       */}

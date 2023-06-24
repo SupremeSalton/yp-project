@@ -7,8 +7,6 @@ import { Profile } from './pages/Profile';
 import { ProfileSettings } from './pages/ProfileSettings';
 import { Registration } from './pages/Registration';
 
-// import login from './pages/Login/login.tmpl' 
-// import Handlebars from 'handlebars';
 
  
 
