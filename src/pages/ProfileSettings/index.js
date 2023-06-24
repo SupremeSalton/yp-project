@@ -12,9 +12,7 @@ export const ProfileSettings = () => Handlebars.compile(template)({
     lastname: Input('Your lastname', 'Lastname', 'second_name'),
     displayname: Input('Your display name', 'Name in chat', 'display_name'),
     phone: Input('Your phone', 'Phone', 'phone'),
-    singup: ButtonLogin('login__form','Accept', 'form__button-singin', 'accept'),
-    password: Input('Set password', 'Password', 'password'),
-    password: Input('Repeat password', 'Password', 'password'),                                             
+    singup: ButtonLogin('login__form','Accept', 'form__button-singin', 'accept'),                                           
     cancel: ButtonLogin(undefined, 'Cancel', 'form__singup-cancel', 'cancel'),
     change_pass: ButtonLogin(undefined, 'Change Password', 'form__button-singup', 'change_password')
 })
