@@ -14,4 +14,5 @@ export const Profile = () => Handlebars.compile(template)({
     phone       : InfoLine('phone', '+14342156432'),                 
     settings: ButtonLogin(undefined,'Settings', 'form__button-singup', 'settings'),                         
     back: ButtonLogin(undefined, 'Back', 'form__singup-cancel', 'back')                          
-})                          
+})    
+                      

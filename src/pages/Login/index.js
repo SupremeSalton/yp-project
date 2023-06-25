@@ -9,4 +9,5 @@ export const Login = () => Handlebars.compile(template)({
     password: Input('Enter your password','password', 'password'),                                       //PASSWORD
     singin: ButtonLogin('login__form','Sign in', 'form__button-login', 'Sign in'),                       //SING-IN button
     singup: ButtonLogin(undefined, 'Sign up', 'form__button-singup', 'Sign up')                          //SING-UP button
-})                          
+})    
+                      
