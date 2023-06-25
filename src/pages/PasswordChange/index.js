@@ -9,4 +9,5 @@ export const PasswordChange = () => Handlebars.compile(template)({
     newpass: Input('Enter your new password','New_Password', 'newPassword'),                           //newPASS
     accept: ButtonLogin('login__form','OK', 'form__button-login', 'accept'),                          //OK
     cancel: ButtonLogin(undefined, 'Cancel', 'form__singup-cancel', 'cancel')                          //Cancel
-})                          
+})  
+                        
